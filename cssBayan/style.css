@@ -34,6 +34,20 @@
   transition: 0.5s;
 }
 
+.label-icon{ 
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url(assets/icons/plus.png);
+  background-repeat: no-repeat;
+  transition: 1s;
+  
+}
+
+/* .label-icon:hover{
+  background-image: url(assets/icons/multiply.png);
+} */
+
+
 .input-meme:checked+.label-meme+.container-content {
   height: 100%;
   visibility: visible;
@@ -43,6 +57,11 @@
 
 .input-meme:checked+.label-meme {
   background-color: rgb(236, 236, 236);
+}
+
+.input-meme:checked+.label-meme div {
+  background-image: url(assets/icons/multiply.png);
+  transition: 1s;
 }
 
 .container-content {
