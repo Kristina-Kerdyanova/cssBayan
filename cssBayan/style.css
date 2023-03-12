@@ -27,7 +27,7 @@
   }
 }
 
-@media (max-width: 320px){
+@media (max-width: 500px){
   .title {
     max-width: 95%;
     font-size: 1.7rem;
@@ -54,7 +54,7 @@
   }
 }
 
-@media (max-width: 320px){
+@media (max-width: 500px){
   .container {
     width: 95%;
   }
@@ -94,7 +94,7 @@
   }
 }
 
-@media (max-width: 320px){
+@media (max-width: 500px){
   .label-meme{
     width: 95%;
     font-size: 0.65rem;
@@ -127,7 +127,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 100px){
+@media (max-width: 1000px){
   .container-content img {
     width: 65%;
   }
@@ -138,6 +138,13 @@
     width: 70%;
   }
 }
+
+@media (max-width: 500px){
+  .container-content img {
+    width: 85%;
+  }
+}
+
 
 @media (max-width: 320px){
   .container-content img {
